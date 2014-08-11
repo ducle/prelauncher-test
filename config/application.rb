@@ -19,6 +19,7 @@ module Prelaunchr
     # config.autoload_paths += %W(#{config.root}/extras)
 
     config.assets.initialize_on_precompile = false
+    config.assets.precompile += %w( active_admin.css active_admin.js active_admin/print.css)
 
     # Only load the plugins named here, in the order given (default is alphabetical).
     # :all can be used as a placeholder for all plugins not explicitly named.
