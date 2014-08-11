@@ -20,3 +20,5 @@
 .elasticbeanstalk
 .ruby-version
 .ruby-gemset
+
+public/assets/*
